@@ -1,0 +1,7 @@
+{
+  "name": "Todo, すること",
+  "description": "Todo list",
+  "uuid": "suru@ryusufe.github.io",
+  "shell-version": ["46"],
+  "settings-schema": "org.gnome.shell.extensions.suru"
+}

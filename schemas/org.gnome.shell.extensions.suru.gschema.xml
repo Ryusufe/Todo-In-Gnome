@@ -1,0 +1,14 @@
+<schemalist gettext-domain="gnome-shell-extensions">
+    <schema id="org.gnome.shell.extensions.suru" path="/org/gnome/shell/extensions/suru/">
+        <key name="todo-items" type="a(sb)">
+            <default>
+                [('A simple task.', false)]
+            </default>
+            <summary>A list of to-do items with check state.</summary>
+            <description>A list of to-do items for the Suru extension, including text and check state.</description>
+        </key>
+    </schema>
+</schemalist>
+
+
+

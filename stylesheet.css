@@ -1,0 +1,80 @@
+.mySuru_Menu {
+	width: 400px;
+}
+
+.mySuru_Menu * {
+	padding: 0;
+}
+.my-menu-item-title {
+	padding: 0;
+	margin: 0;
+	font-size: 5px;
+}
+.my-menu-item-seperator {
+	padding: 0;
+	margin: 0;
+}
+
+.my-menu-item-input {
+	width: 380px;
+	margin: 5px 0;
+}
+
+.my-input {
+	height: 20px;
+	padding: 5px;
+	font-size: 12px;
+	width: 375px;
+}
+
+.my-suru-list-menu {
+	margin-bottom: 5px;
+	width: 375px;
+}
+
+.suru-task {
+	width: 370px;
+	padding: 5px;
+	width: fit-content;
+	font-size: 15px;
+	height: fit-content;
+	border-radius: 5px;
+	background: #474747;
+	margin: 3px 0;
+}
+.suru-task * {
+	text-decoration: line-through;
+}
+
+.my-suru-button-edit,
+.my-suru-button-del {
+	width: 10px;
+	margin-left: 10px;
+	height: 10px;
+}
+
+.my-suru-button-del:hover * {
+	color: red;
+}
+.my-suru-button-edit:hover * {
+	color: white;
+}
+
+.suru-scroll-container {
+	max-height: 500px;
+}
+
+.suru-layout-container {
+	padding-right: 10px;
+}
+
+.my-suru-button-check {
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+	border-radius: 3px;
+}
+
+.suru-check-icon-checked {
+	color: #f1c40f;
+}
