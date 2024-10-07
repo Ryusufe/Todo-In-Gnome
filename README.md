@@ -17,17 +17,17 @@ You can install the GNOME To-Do Extension via the command line. Follow these ste
 
 
 1. **Navigate to the GNOME extensions directory**:
-   ```bash
-   cd ~/.local/share/gnome-shell/extensions/
-   ```
+```bash
+cd ~/.local/share/gnome-shell/extensions/
+```
 2. **Clone the repository into a new folder named `suru@ryusufe.github.io`**:
-  ```bash
-  git clone https://github.com/ryusufe/Todo-In-Gnome.git suru@ryusufe.github.io
-  ```
-3. **Enable the extension**:
-    ```bash
-    gnome-extensions enable suru@ryusufe.github.io
-    ```
-4. **Restart GNOME Shell**:
+```bash
+git clone https://github.com/ryusufe/Todo-In-Gnome.git suru@ryusufe.github.io
+```
+3. **Restart GNOME Shell**:
   - X11 : press `Alt + F2`, type `r`, and hit `Enter`.
   - wayland : log out and log back in.
+4. **Enable the extension**:
+ ```bash
+ gnome-extensions enable suru@ryusufe.github.io
+ ```
