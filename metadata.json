@@ -3,5 +3,7 @@
   "description": "Todo list",
   "uuid": "suru@ryusufe.github.io",
   "shell-version": ["46"],
-  "settings-schema": "org.gnome.shell.extensions.suru"
+  "settings-schema": "org.gnome.shell.extensions.suru",
+  "url": "https://github.com/Ryusufe/Todo-In-Gnome",
+  "session-modes": ["user"]
 }
