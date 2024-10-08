@@ -4,7 +4,10 @@ import { Extension, gettext as _ } from "resource:///org/gnome/shell/extensions/
 import * as PanelMenu from "resource:///org/gnome/shell/ui/panelMenu.js";
 import * as PopupMenu from "resource:///org/gnome/shell/ui/popupMenu.js";
 import * as Main from "resource:///org/gnome/shell/ui/main.js";
-const { GLib, Gio, Clutter } = imports.gi;
+import GLib from "gi://GLib";
+import Gio from "gi://Gio";
+import Clutter from "gi://Clutter";
+
 
 const Indicator = GObject.registerClass(
     class Indicator extends PanelMenu.Button {
@@ -212,7 +215,7 @@ const Indicator = GObject.registerClass(
     },
 );
 
-export default class IndicatorExampleExtension extends Extension {
+export default class SuruListExtension extends Extension {
     enable() {
         this._indicator = new Indicator(this);
         Main.panel.addToStatusArea(this.uuid, this._indicator);
