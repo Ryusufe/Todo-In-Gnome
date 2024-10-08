@@ -13,8 +13,8 @@ The GNOME To-Do Extension is a lightweight and user-friendly extension designed 
 
 ## Installation
 
-You can install the GNOME To-Do Extension via the command line. Follow these steps:
-
+You can install the GNOME To-Do Extension via the [Extension Manager](https://github.com/mjakeman/extension-manager) at [Todo, すること](https://extensions.gnome.org/extension/7418/todo/).
+Or via the command line. Follow these steps:
 
 1. **Navigate to the GNOME extensions directory**:
 ```bash
