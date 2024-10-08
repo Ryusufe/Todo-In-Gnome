@@ -5,5 +5,4 @@
   "shell-version": ["46"],
   "settings-schema": "org.gnome.shell.extensions.suru",
   "url": "https://github.com/Ryusufe/Todo-In-Gnome",
-  "session-modes": ["user"]
 }
