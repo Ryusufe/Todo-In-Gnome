@@ -6,9 +6,13 @@
 	padding: 0;
 }
 .my-menu-item-title {
-	padding: 0;
+	padding: 3px 0;
 	margin: 0;
-	font-size: 5px;
+	font-size: 15px;
+}
+.my-title{
+  width: 340px;
+  text-align: center;
 }
 .my-menu-item-seperator {
 	padding: 0;
@@ -28,7 +32,7 @@
 }
 
 .my-suru-list-menu {
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 	width: 375px;
 }
 
@@ -39,7 +43,7 @@
 	font-size: 15px;
 	height: fit-content;
 	border-radius: 5px;
-	background: #474747;
+	background: rgba(128, 128, 128, 0.18);
 	margin: 3px 0;
 }
 .suru-task * {
