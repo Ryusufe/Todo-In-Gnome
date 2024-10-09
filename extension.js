@@ -8,7 +8,6 @@ import GLib from "gi://GLib";
 import Gio from "gi://Gio";
 import Clutter from "gi://Clutter";
 
-
 const Indicator = GObject.registerClass(
     class Indicator extends PanelMenu.Button {
         _init(extensionObject) {
@@ -28,13 +27,19 @@ const Indicator = GObject.registerClass(
                 .deep_unpack()
                 .map((i, index) => ({ id: index, text: i[0], state: i[1] }));
 
-            const title = new PopupMenu.PopupSeparatorMenuItem("suruこと, Todo", {
+            const title = new PopupMenu.PopupMenuItem("",{
                 can_focus: false,
                 hover: false,
                 reactive: false,
                 style_class: "my-menu-item-title",
             });
-
+            
+            const titleLabel = new St.Label({
+                text: "suruこと, Todo",
+                style_class: "my-title"
+                
+            })
+            title.add_child(titleLabel);
             title.setOrnament(PopupMenu.Ornament.NONE);
             this.menu.addMenuItem(title);
 
