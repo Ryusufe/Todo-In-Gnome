@@ -9,7 +9,7 @@ The GNOME To-Do Extension is a lightweight and user-friendly extension designed 
 
 ## Showcase Usage :
 
-![Todo List Screenshot](https://github.com/Ryusufe/Todo-In-Gnome/blob/main/screenshots/Recording%202024-10-07%20at%2023.39.49.gif?raw=true)
+![Todo List Screenshot](https://raw.githubusercontent.com/Ryusufe/Todo-In-Gnome/refs/heads/main/screenshots/Recording%202024-10-12%20at%2002.18.36.gif)
 
 ## Installation
 
