@@ -7,6 +7,11 @@
             <summary>A list of to-do items with check state.</summary>
             <description>A list of to-do items for the Suru extension, including text and check state.</description>
         </key>
+        <key name="archive-items" type="a(sb)">
+            <default>[('A simple task.', false)]</default>
+            <summary>Archived tasks</summary>
+            <description>A list of tasks that have been archived.</description>
+        </key>
     </schema>
 </schemalist>
 

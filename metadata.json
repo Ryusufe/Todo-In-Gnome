@@ -1,8 +1,11 @@
 {
   "name": "Todo, すること",
-  "description": "Todo list",
+  "description": "The GNOME To-Do Extension is a lightweight and user-friendly extension designed to help you manage your tasks efficiently. With a minimalistic interface, it allows you to add, modify, and delete tasks effortlessly. No complicated settings, just pure productivity!",
   "uuid": "suru@ryusufe.github.io",
   "shell-version": ["46"],
   "settings-schema": "org.gnome.shell.extensions.suru",
   "url": "https://github.com/Ryusufe/Todo-In-Gnome",
+  "donations":{
+    "buymeacoffee": "ryusufe"
+  }
 }

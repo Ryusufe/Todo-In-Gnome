@@ -16,7 +16,7 @@
 }
 .my-menu-item-seperator {
 	padding: 0;
-	margin: 0;
+	margin: 0 0 0 10px;
 }
 
 .my-menu-item-input {
@@ -35,7 +35,14 @@
 	margin-bottom: 15px;
 	width: 375px;
 }
-
+.suru-task-h{
+	width: 370px;
+	padding: 5px;
+	width: fit-content;
+	font-size: 15px;
+	height: fit-content;
+	margin-bottom: 3px;
+}
 .suru-task {
 	width: 370px;
 	padding: 5px;
@@ -46,10 +53,13 @@
 	background: rgba(128, 128, 128, 0.18);
 	margin: 3px 0;
 }
-.suru-task * {
-	text-decoration: line-through;
+
+.suru-task-tools{
+	margin-left: 150px;
 }
 
+
+.my-suru-button-arc,
 .my-suru-button-edit,
 .my-suru-button-del {
 	width: 10px;
@@ -60,8 +70,10 @@
 .my-suru-button-del:hover * {
 	color: red;
 }
+.my-suru-button-arc:hover *,
 .my-suru-button-edit:hover * {
 	color: white;
+	mix-blend-mode: difference;
 }
 
 .suru-scroll-container {
@@ -75,10 +87,67 @@
 .my-suru-button-check {
 	width: 10px;
 	height: 10px;
-	margin-right: 10px;
-	border-radius: 3px;
 }
-
+.my-suru-button-check:hover * {
+	color: white;
+}
 .suru-check-icon-checked {
 	color: #f1c40f;
+}
+
+
+
+
+/* archive */
+
+
+
+.my-suru-mode{
+	padding: 5px;
+}
+.suru-mode-icon{
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
+}
+.suru-mode-bl{
+	margin-right: 5px;
+	padding: 3px 5px;
+	border-radius: 5px;
+}
+.suru-mode-bl_selected{
+	margin-right: 5px;
+	padding: 3px 5px;
+	border-radius: 5px;
+	background: rgba(128, 128, 128, 0.18);
+}
+.suru-mode-bl_selected *{
+	color: #f1c40f;
+}
+.suru-mode-seperator{
+	margin-right: 5px;
+	color: rgba(128, 128, 128, 0.5);
+}
+
+.suru-count-label{
+	margin-right: 5px;
+}
+.suru-mode-group{
+	width: 390px;
+}
+
+
+
+.my-suru-button-donation {
+	width: 10px;
+	margin-right: 10px;
+	height: 10px;
+}
+
+.suru-donation-icon{
+	color: rgba(128, 128, 128, 0.18);
+}
+
+.my-suru-button-donation:hover * {
+	color: rgb(165, 44, 44);
 }
