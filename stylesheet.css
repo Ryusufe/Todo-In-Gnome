@@ -10,10 +10,28 @@
 	margin: 0;
 	font-size: 15px;
 }
-.my-title{
-  width: 340px;
-  text-align: center;
+.suru-title-container{
+	width: 340px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+.my-title{
+  font-weight: bold;
+  /* text-align: center; */
+}
+.my-title-td{
+	font-weight: lighter;
+
+}
+.my-title-ind{
+	font-weight: lighter;
+	color: rgba(255, 255, 255, 0.18);
+}
+.my-title-ind:hover{
+	color: rgba(255, 255, 255, 0.7);
+}
+
 .my-menu-item-seperator {
 	padding: 0;
 	margin: 0 0 0 10px;
@@ -92,7 +110,7 @@
 	color: white;
 }
 .suru-check-icon-checked {
-	color: #f1c40f;
+	color: -st-accent-color;
 }
 
 
@@ -119,10 +137,10 @@
 	margin-right: 5px;
 	padding: 3px 5px;
 	border-radius: 5px;
-	background: rgba(128, 128, 128, 0.18);
+	background: -st-accent-color;
 }
 .suru-mode-bl_selected *{
-	color: #f1c40f;
+	color: white;
 }
 .suru-mode-seperator{
 	margin-right: 5px;
