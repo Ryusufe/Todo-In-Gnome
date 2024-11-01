@@ -1,4 +1,6 @@
 # Todo-In-Gnome
+`Gnome v47`
+- for gnome 46 download it from the [Extension Manager](##Installation).
 
 ## Description
 
@@ -31,6 +33,40 @@ git clone https://github.com/ryusufe/Todo-In-Gnome.git suru@ryusufe.github.io
  ```bash
  gnome-extensions enable suru@ryusufe.github.io
  ```
+## Special Input (Gnome 47) : 
+
+The following syntax enables efficient navigation, creation, deletion, and renaming of your to-do lists:
+
+### Navigation
+
+  `@2` – Navigates to the to-do list identified by its number, here list `2`.
+  
+  `@Groceries` – Accesses the to-do list with the name `Groceries`.
+
+### List Creation
+
+  `+::Work Projects` – Creates a new to-do list with the name `Work Projects`.
+
+### List Deletion
+
+  `-::@2` – Deletes the to-do list at index `2`.
+  
+  `-::@Chores` – Removes the to-do list with the name `Chores`.
+
+### Renaming Lists
+
+  `@2::Weekend Plans` – Renames the to-do list at index `2` to `Weekend Plans`.
+  
+  `@Vacation::Trip Itinerary` – Changes the name of the list `Vacation` to `Trip Itinerary`.
+
+### Help
+
+  `!l` – Adds an item with all current lists and they number and state.
+
+This syntax provides a streamlined way to manage your lists intuitively through direct special inputs.
+
+
+
 
 ## Donation
 
