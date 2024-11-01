@@ -33,7 +33,7 @@ git clone https://github.com/ryusufe/Todo-In-Gnome.git suru@ryusufe.github.io
  ```bash
  gnome-extensions enable suru@ryusufe.github.io
  ```
-## Special Input (Gnome 47) : 
+## Special Input : 
 
 The following syntax enables efficient navigation, creation, deletion, and renaming of your to-do lists:
 
