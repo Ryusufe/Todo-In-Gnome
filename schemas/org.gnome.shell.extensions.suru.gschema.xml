@@ -12,6 +12,22 @@
             <summary>Archived tasks</summary>
             <description>A list of tasks that have been archived.</description>
         </key>
+        <key name="lists" type="aaa(sb)">
+            <default>
+                [
+                    [[('listsAt0 1', false), ('Task 2', true)],[('Archive 1', false), ('Archive 2', true)]]
+                ]
+            </default>
+            <summary>A list of task groups, each with its own to-do items and check states.</summary>
+            <description>A list of groups with each containing its own list of to-do items for the Suru extension.</description>
+        </key>
+        <key name="lists-info" type="a(sb)">
+            <default>
+                [('suruこと', true), ('List', false)]
+            </default>
+            <summary>Currently selected Todo List.</summary>
+            <description>An integer.</description>
+        </key>
     </schema>
 </schemalist>
 
